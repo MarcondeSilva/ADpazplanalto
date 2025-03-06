@@ -34,8 +34,22 @@
             font-size: 18px;
         }
 
+        .register-button {
+            background-color: #e61919;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
         .register-button:hover {
-            background-color: lightgray;
+            background-color: darkred;
         }
 
         .footer {
@@ -47,7 +61,7 @@
             width: 150px;
             height: 120px;
             display: block;
-            margin: 0 auto 10px; /* Espaço entre a logo e o endereço */
+            margin: 20px auto 10px;
         }
 
         .address {
@@ -72,23 +86,25 @@
 
         <div class="card-body border-0 new">
             <p class="thanks-text text-white">É muito bom ter você aqui. Volte sempre!!</p>
+
             <div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWjGB-q5TdlvCraT1aclmXggP7l6O339_q8O45fr2dJb2DJw/viewform?usp=header" target="_blank" class="btn btn-danger">
-                    <div>Click e registre sua presença!
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            class="bi bi-calendar-check-fill" viewBox="0 0 16 16">
-                            <path
-                                d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2m-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708" />
-                        </svg>
-                    </div>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWjGB-q5TdlvCraT1aclmXggP7l6O339_q8O45fr2dJb2DJw/viewform?usp=header" 
+                   target="_blank" class="register-button">
+                    Click e registre sua presença!
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-calendar-check-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2m-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708" />
+                    </svg>
                 </a>
             </div>
+
+            <img src="logo.png" alt="Logo" class="footer-logo">
+
         </div>
 
         <div class="card-footer border-0 new">
             <div class="footer">
-                <!-- Logo acima do endereço -->
-                <img src="logo.png" alt="Logo" class="footer-logo">
                 <p class="address text-white">Endereço: Rua engenheiro João Hélio, 1957 <br> Planalto - Natal RN</p>
             </div>
         </div>
